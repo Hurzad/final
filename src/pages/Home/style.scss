@@ -1,0 +1,1115 @@
+@import '~bootstrap/scss/bootstrap';
+
+body,
+* {
+  margin: 0;
+  padding: 0;
+  /* color: #ffffff; */
+  box-sizing: border-box;
+}
+
+/* Header da 1 ci hisse  */
+.top-bar-inner1 {
+  margin-left: 40px;
+  color: #fff;
+  display: flex;
+  font-weight: 100 !important;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+
+.top-bar-inner2 {
+  margin-right: -250px;
+  color: #fff;
+  display: flex;
+  font-weight: 100 !important;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.inner-bar-line {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.inner2-barOne a {
+  margin-left: 7px;
+
+  i {
+    color: #ffffff;
+  }
+}
+
+#top-bars {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-right: -60px;
+}
+
+.hr {
+  margin-left: 20px;
+  width: 125%;
+  height: 1px;
+  background-color: #b1b0b0;
+  margin-top: 20px;
+  margin-bottom: 36px;
+}
+
+/* Header da 2 ci */
+
+
+#header-nav {
+  width: 100%;
+  height: 20vh;
+  font-size: 18px;
+  font-weight: 100 !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+  z-index: 999;
+  color: #ffffff;
+}
+
+
+.header-navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 40px;
+}
+
+.header-pages {
+  display: flex;
+}
+
+.header-navbar-img img {
+  width: 200px;
+  margin-top: -140px;
+  width: 300px;
+}
+
+.header-page-logo {
+  display: flex;
+  margin-right: -150px;
+
+  a {
+    margin-left: 15px;
+  }
+
+  i {
+    font-size: 18px;
+    margin-left: 10px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Slider Carousel  */
+
+.slider-container {
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+.slider-container {
+  position: relative;
+}
+
+
+.slide-text {
+  color: white;
+  font-size: 24px;
+  position: absolute;
+  top: 50%;
+  right: 50;
+}
+
+#slideText1 {
+  margin-left: 170px;
+  margin-top: -130px;
+
+  h1 {
+    font-weight: 100 !important;
+    font-size: 90px;
+    font-family: "Montserrat", sans-serif !important;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 60px;
+  }
+
+  span {
+    font-size: 35px;
+  }
+}
+
+#btn-slide1 {
+  background-color: #595ee0;
+  border: none;
+  padding: 10px;
+  color: #ffffff;
+  margin-right: 20px;
+}
+
+
+
+
+/* Section One -Links  */
+
+
+.sectionOne {
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+  color: #ffffff;
+  background-color: #000000;
+
+  /* h2{
+      margin-top: -40px;
+      margin-left: 10px;
+      font-weight: 100 !important;
+      font-family: "Montserrat", sans-serif !important;
+    } */
+}
+
+.sec1-boxes {
+  margin-left: 10px;
+  display: flex;
+  margin-top: 40px !important;
+}
+
+.sec1-texts {
+  width: 88%;
+  height: 10vh;
+  margin-top: -40px;
+  margin-left: 10px;
+
+  img:hover {
+    transform: scale(1.2);
+  }
+
+  .pil-2 {
+    visibility: hidden;
+    margin-left: 10px;
+    font-weight: 100 !important;
+    font-family: "Montserrat", sans-serif !important;
+  }
+
+  h2 {
+    margin-top: -40px;
+    margin-left: 10px;
+    font-weight: 100 !important;
+    font-family: "Montserrat", sans-serif !important;
+  }
+
+  .pil-2 h3 {
+    color: #ffffff;
+  }
+}
+
+.sec1-texts:hover {
+  margin-top: -80px;
+
+
+  .pil-2 {
+    visibility: visible;
+
+  }
+}
+
+
+/*     
+     img:hover{
+      transform: scale(1.1);
+      transition: 2s;
+  
+  
+      .pil-2{
+        visibility: visible;
+      }
+    }
+  
+  
+    .box-sec1{
+      overflow: hidden;
+    }  */
+
+
+
+
+
+
+
+
+
+/* Processor pC */
+
+.sectionsPC {
+  display: flex;
+  color: #ffffff;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url(https://images5.alphacoders.com/135/1350225.png); */
+  background-image: url(https://wallpapercave.com/wp/wp2757874.gif);
+
+
+  #pros {
+    margin-top: -60px;
+    margin-left: -100px;
+  }
+
+  .black-PC {
+    background-color: #000000;
+  }
+
+  h1 {
+    font-size: 100px;
+    font-weight: 100 !important;
+    font-family: "Montserrat", sans-serif !important;
+    color: #595ee0;
+  }
+
+  #PC1 {
+    font-size: 70px;
+  }
+
+  p {
+    font-size: 18px;
+    color: grey;
+  }
+
+  .secTwo {
+    margin-top: -60px;
+    margin-left: 160px;
+  }
+}
+
+
+.pcOne {
+  display: flex;
+
+  img {
+    margin-right: 15px;
+  }
+}
+
+.pcObjects {
+  display: flex;
+
+  .pcTwo {
+    display: flex;
+    margin-left: 40px;
+
+    img {
+      margin-right: 15px;
+    }
+  }
+}
+
+
+.pcBtns {
+  display: flex;
+  margin-top: 30px;
+
+
+  #pcPurple {
+    border: none;
+    background-color: #595ee0;
+    padding: 8px;
+    margin-right: 15px;
+    color: #ffffff;
+  }
+
+
+  #pc-Case {
+    border: 2px solid #ffffff;
+    margin-left: 60px;
+    color: #ffffff;
+    background-color: transparent;
+    padding: 8px;
+  }
+}
+
+
+
+
+
+
+
+/* Picture Purple */
+
+.picturePurple {
+  width: 100%;
+  background-image: url(https://woodmart.b-cdn.net/wp-content/uploads/2018/10/black-electronics-testimon-bg-opt.jpg?id=24043);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.picturediv-ec {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.picture {
+  display: flex;
+  margin-top: 60px;
+  height: 80vh;
+}
+
+.picture-text {
+  margin-left: 50px;
+  width: 100%;
+  height: 40vh;
+
+  h2 {
+    font-family: Montserrat Thin;
+  }
+
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #a8a3a3;
+  }
+
+  h5 {
+    margin-top: 15px;
+  }
+}
+
+
+.twopic {
+  margin-left: 20px;
+}
+
+.pic-2 {
+  margin-top: 15px;
+}
+
+
+
+
+/* Video section  */
+
+.videoTexts {
+  background-color: #000000;
+  width: 100%;
+  height: 70vh;
+  background-image: -webkit-radial-gradient(left center, ellipse cover, rgb(50, 39, 61), rgb(50, 39, 61) 8%, rgba(0, 0, 0, 0) 66%);
+  ;
+  display: flex;
+  justify-content: space-between;
+
+  h1 {
+    color: #ffffff;
+    font-size: 100px;
+    font-weight: 100 !important;
+    font-family: "Montserrat", sans-serif !important;
+  }
+
+  h3 {
+    color: #ffffff;
+    font-size: 60px;
+    font-family: "Montserrat", sans-serif !important;
+  }
+
+  p {
+    font-size: 18px;
+    color: #FFFFFF99;
+  }
+}
+
+.videotexts-1 * {
+  margin-left: 80px;
+}
+
+#purp-btn {
+  border: none;
+  padding: 10px;
+  color: #ffffff;
+  background-color: #595ee0;
+}
+
+#white-btn {
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  padding: 10px;
+  background-color: transparent;
+}
+
+.videotexts-2 span {
+  width: 700px;
+  color: #ffffff;
+  height: 700px;
+  justify-content: center;
+  display: inline;
+  align-items: center;
+}
+
+.videotexts-2 {
+  margin-right: 30px;
+}
+
+
+.video-link {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  /* İçeriği gizle */
+}
+
+.video-link img {
+  transition: transform 2s ease-in-out;
+  /* Geçiş efekti */
+}
+
+.video-link:hover img {
+  transform: scale(1.1);
+  /* Resmin boyutunu büyüt */
+}
+
+
+
+.videotexts-2 span {
+  color: #ffffff;
+  font-size: 60px;
+  z-index: 8;
+}
+
+
+
+.video-link {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.video-link a {
+  text-decoration: none;
+}
+
+.video-link img {
+  width: 800px;
+}
+
+.videoTexts {
+  overflow: hidden;
+}
+
+
+.images {
+  width: 100%;
+  height: 100vh;
+  background-color: #000000;
+}
+
+
+.imgSection-texts {
+  text-align: center;
+
+  h1 {
+    color: #ffffff;
+    font-weight: 100 !important;
+    font-family: "Montserrat", sans-serif !important;
+  }
+
+  h3 {
+    color: #ffffff;
+  }
+
+  p {
+    color: #FFFFFF99;
+  }
+}
+
+.images-sec {
+  img {
+    height: 38vh;
+  }
+}
+
+.powerBeauty-sec {
+  width: 100%;
+  height: 50vh;
+  background-color: red;
+}
+
+.powerBeauty-1 {
+  width: 50%;
+  display: flex;
+
+  img {
+    margin-left: 20px;
+  }
+}
+
+
+//                                                     Footer
+
+.footer {
+  width: 100%;
+  height: 40vh;
+  background-image: url(https://woodmart.b-cdn.net/wp-content/uploads/2018/10/black-electronics-fut-bg-opt.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.end{
+  display: flex;
+  padding: 20px;
+}
+
+.secOne-part1{
+  color: #d5d1d1;
+}
+
+.secOne-part1 img{
+  filter: brightness(0) invert(1);
+}
+
+.secOne-part2{
+  margin-left: 20px;
+
+  h4{
+    color: #ffffff;
+  }
+}
+
+.foot-sec-One{
+  display: flex;
+  justify-content: space-between;
+}
+
+.post-1{
+  display: flex;
+  color: #ffffff;
+}
+
+
+.post1-text{
+  margin-left: 15px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.post1-text h5{
+  font-size: 18px;
+}
+
+.post1-text h6{
+  font-size: 15px;
+  color: #b1b0b0;
+}
+
+
+
+.post-2{
+  display: flex;
+  color: #ffffff;
+}
+
+.post2-text{
+  margin-left: 15px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.post2-text h5{
+  font-size: 18px;
+}
+
+.post2-text h6{
+  font-size: 15px;
+  color: #b1b0b0;
+}
+
+
+
+
+
+.foot-sec-Two{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 60px;
+}
+
+.foot-line1 h3{
+  color: #fff;
+}
+
+.foot-line1 ul{
+  list-style: none;
+  color: #b1b0b0;
+  line-height: 35px;
+}
+
+.foot-line2{
+  margin-left: 40px;
+}
+
+.foot-line2 h3{
+  color: #fff;
+}
+
+.foot-line2 ul{
+  list-style: none;
+  color: #b1b0b0;
+  line-height: 35px;
+}
+
+
+
+//                                                Premium PC
+.prePc-text {
+  text-align: center;
+
+
+
+  #prosText {
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 100 !important;
+    font-family: "Montserrat", sans-serif !important;
+  }
+
+  #pcBuild {
+    color: #595ee0;
+    font-size: 43px;
+  }
+
+  p {
+    color: rgb(185, 177, 177);
+  }
+}
+
+.premiumPC {
+  height: 100vh;
+
+
+  .prePc-boxes {
+    color: #d2caca;
+  }
+
+  .prePc-plan {
+    border: 2px solid #595ee0;
+  }
+
+  .prePc-name {
+    text-align: center;
+    font-size: 33px;
+  }
+
+  .plan-price {
+    text-align: center;
+    background-image: url(https://woodmart.b-cdn.net/wp-content/uploads/2018/10/black-electronics-lite-img-opt.jpg);
+
+    #dolar {
+      font-size: 38px;
+    }
+
+    #price {
+      font-size: 48px;
+    }
+
+    #month {
+      font-size: 14px;
+    }
+  }
+}
+
+
+.plan-about {
+  text-align: center;
+
+  .wd-plan-feature {
+    font-size: 18px;
+    border-bottom: inherit;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #6f6d6d;
+  }
+}
+
+.plan-buy {
+  padding-bottom: 10px;
+  text-align: center;
+
+  button {
+    padding: 10px 17px;
+    border: none;
+    background-color: #595ee0;
+    color: #ffffff;
+  }
+}
+
+
+.prePc-box1:hover {
+  margin-top: -18px;
+  transition: 0.5s linear;
+}
+
+
+
+
+
+
+//                                                 FAQ'S
+
+.faq {
+  background-color: #000000;
+  height: 120vh;
+}
+
+
+.faq h1 {
+  text-align: center;
+  font-size: 80px;
+  font-family: fantasy;
+  color: rgb(186, 9, 9);
+}
+
+.faq h2 {
+  text-align: center;
+  font-size: 50px;
+  font-family: fantasy;
+  color: #ffffff;
+}
+
+.faq h3 {
+  color: #ffffff;
+  font-family: fantasy;
+}
+
+.faq {
+  .faq-circle {
+    border: 1px solid rgb(42, 41, 41);
+    border-radius: 20px;
+    padding: 25px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .faq-que {
+      flex: 1;
+    }
+
+    .faq-photo {
+      flex: 1;
+
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }
+
+  .accordion {
+    width: 100%;
+
+    .accordion-item {
+      margin-bottom: 15px;
+      border: 1px solid #2e2d2d;
+      border-radius: 5px;
+
+      .accordion-header {
+        background-color: #f1f1f1;
+        padding: 10px;
+        border-bottom: 1px solid #ccc;
+        cursor: pointer;
+        outline: none;
+
+        &:hover {
+          background-color: #e0e0e0;
+        }
+      }
+
+      .accordion-button {
+        width: 100%;
+        text-align: left;
+        font-size: 16px;
+        font-weight: bold;
+        color: red;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .accordion-body {
+        background-color: #000000;
+        color: #ffffff;
+        border-top: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 15px;
+
+        p {
+          margin-bottom: 0;
+        }
+
+        code {
+          background-color: #f3f3f3;
+          padding: 2px 5px;
+          border-radius: 3px;
+        }
+      }
+    }
+  }
+}
+
+.accordion-item {
+  margin-bottom: 15px;
+}
+
+.accordion-button {
+  background-color: #000000;
+  color: #ffffff;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  text-align: left;
+  width: 100%;
+}
+
+.accordion-button:hover {
+  background-color: #000000;
+}
+
+.accordion-button.collapsed {
+  background-color: #000000;
+  color: red;
+}
+
+.faq .accordion .accordion-item .accordion-header {
+  background-color: #000000;
+}
+
+.faq .accordion .accordion-item .accordion-header:hover {
+  background-color: #000000;
+}
+
+
+
+
+
+
+//                                  ABOUT-US
+
+.about-us{
+  height: 30vh;
+}
+
+.about-head-img img{
+  position: relative;
+  width: 100%;
+  height: 498px;
+  object-fit: cover;
+}
+
+.about-head-img h1{
+  position: absolute;
+  font-size: 70px;
+  top: 20%;
+  left: 6%;
+  font-family: 'RANGE-OVER';
+  color: #fff;
+}
+
+.about-head-img h2{
+  position: absolute;
+  font-size: 18px;
+  top: 35%;
+  left: 6%;
+  font-family: 'Times New Roman', Times, serif;
+  color: #a09b9b;
+}
+
+.about-data{
+  display: flex;
+  justify-content: space-between;
+}
+
+.data-part2{
+  margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+//                            Shop  Product
+
+.product-text{
+  text-align: center;
+  color: #fff;
+}
+
+.product-text h3{
+  font-family: "Montserrat", sans-serif !important;
+  color: #5257cb;
+}
+
+.product-text p{
+  color: #b9b7b7;
+}
+
+.pro-shopThing{
+  // background-color: #000000;
+  background-image: url(https://i.pinimg.com/originals/44/bf/8b/44bf8b5a11f4cedff5c1c2778b0f7b9c.gif);
+}
+
+.card-product{
+  border: none;
+}
+
+.card-body{
+  background-color: #000000;
+  text-align: center;
+}
+
+.cart-title{
+  color: #fff;
+}
+
+.cart-text{
+  color: #b1b0b0;
+}
+
+.cart-price{
+  color: #5257cb;
+  font-size: 20px;
+}
+
+
+
+.btn-add{
+  background-color: #000000;
+  border: none;
+  padding: 10px;
+  transition: 0.5s ease;
+  width: 100%;
+}
+
+.card-product:hover{
+  .btn-add{
+  background-color: #5257cb;
+  color: #ffffff;
+  transition: 0.5s ease;
+  transform: translate(0px,-90px);
+  }
+}
+
+.wish{
+  transform: translateX(135px) translate(0px,-385px);
+  transition: 0.5s ease;
+}
+
+.wish button{
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  opacity: 0;
+  z-index: 0;
+}
+
+.card-product:hover{
+  .wish{
+    transform: translateX(100px) translate(0px,-395px);
+  }
+  .wish button{
+    z-index: 100;
+    opacity: 1;
+  }
+}
+
+.wish button i{
+  color: #5257cb;
+  font-size: 20px;
+}
+
+
+
+
+
+.more i{
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  opacity: 0;
+  z-index: 0;
+}
+
+.more button{
+  background-color: transparent;
+  border: none;
+}
+
+.card-product:hover{
+  .more i{
+    transform: translateX(100px) translate(0px,-385px);
+  }
+  .more i{
+    z-index: 100;
+    opacity: 1;
+    background-color: #5257cb;
+  }
+}
+
+.more button i{
+  color: #ffffff;
+  font-size: 20px;
+}
+
+
+
+//    Shop un filter hissesi
+
+.filter {
+  ul {
+      list-style: none;
+      padding-left: 0;  
+      border: 1px solid #5257cb;
+  }
+
+  .list-group-item {
+      background-color: black; 
+      color: white; 
+      border: none; 
+      cursor: pointer;
+      padding: 13px;
+
+      &:hover {
+          background-color: #5257cb;
+          color: #f1f1f1;
+      }
+  }
+}
+
+
+
